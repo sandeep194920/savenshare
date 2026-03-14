@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #F0C229;
+  --primary-light: #f5d46a;
+  --bg-default: #031019;
+  --bg-card: #0D1F2D;
+  --bg-card2: #112233;
+  --text-primary: #ffffff;
+  --text-secondary: #8A97A8;
+  --border-default: #1A3347;
+}
+
+body {
+  background: var(--bg-default);
+  color: var(--text-primary);
+}
+
+html {
+  scroll-behavior: smooth;
+}
