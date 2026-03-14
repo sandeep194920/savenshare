@@ -63,9 +63,10 @@ export default function AppFeatures() {
                         <Image
                           src={img}
                           alt={`${feature.heading} screenshot ${i + 1}`}
-                          width={300}
-                          height={600}
+                          width={600}
+                          height={1200}
                           className="w-full h-auto"
+                          quality={100}
                         />
                       </div>
                     </div>
