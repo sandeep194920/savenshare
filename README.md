@@ -2,7 +2,7 @@
 
 Marketing and info website for the **SaveNShare** mobile app. Built with Next.js 14, Tailwind CSS, and TypeScript.
 
-Live site: _coming soon (Vercel)_
+Live site: [https://savenshare-ten.vercel.app/](https://savenshare-ten.vercel.app/)
 
 ---
 
