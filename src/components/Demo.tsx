@@ -11,17 +11,15 @@ export default function Demo() {
           Watch how easy it is to save, organise and share videos with SaveNShare.
         </Paragraph>
 
-        {/* YouTube embed — swap src when video is recorded */}
         <div className="relative w-full rounded-2xl overflow-hidden border border-border-default shadow-xl"
           style={{ paddingBottom: "56.25%" }}>
-          <div className="absolute inset-0 flex flex-col items-center justify-center bg-bg-card2 gap-4">
-            <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center">
-              <svg className="w-8 h-8 text-primary ml-1" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M8 5v14l11-7z" />
-              </svg>
-            </div>
-            <p className="text-text-secondary text-sm">Demo video coming soon</p>
-          </div>
+          <iframe
+            className="absolute inset-0 w-full h-full"
+            src="https://www.youtube.com/embed/eMHSCQKCOUU"
+            title="SaveNShare Demo"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
         </div>
 
         <p className="text-center text-xs text-text-secondary mt-4">
